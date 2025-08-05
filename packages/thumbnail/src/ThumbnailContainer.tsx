@@ -14,7 +14,7 @@ import {
     useSafeState,
     type PdfJs,
     type VisibilityChanged,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { SpinnerContext } from './SpinnerContext';
 import { ThumbnailItem } from './ThumbnailItem';

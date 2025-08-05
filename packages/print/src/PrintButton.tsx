@@ -15,7 +15,7 @@ import {
     Position,
     Tooltip,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { PrintIcon } from './PrintIcon';
 import { type RenderPrintProps } from './types/RenderPrintProps';

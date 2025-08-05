@@ -16,7 +16,7 @@ import {
     isMac,
     type LocalizationMap,
     type Store,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { OpenFileIcon } from './OpenFileIcon';
 import styles from './styles/openInput.module.css';

@@ -8,7 +8,7 @@
 
 'use client';
 
-import { useIsomorphicLayoutEffect } from '@react-pdf-viewer/core';
+import { useIsomorphicLayoutEffect } from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { getCssProperties } from './getCssProperties';
 import styles from './styles/highlight.module.css';

@@ -18,7 +18,7 @@ import {
     Tooltip,
     type LocalizationMap,
     type Toggle,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { LocaleIcon } from './LocaleIcon';
 

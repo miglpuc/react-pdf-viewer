@@ -1,6 +1,6 @@
 {
-    "name": "@react-pdf-viewer/toolbar",
-    "version": "3.12.0",
+    "name": "@react-pdf-viewer-fork/toolbar",
+    "version": "4.0.3",
     "description": "A React component to view a PDF document",
     "license": "https://react-pdf-viewer.dev/license",
     "author": {
@@ -29,23 +29,23 @@
     "files": [
         "lib/cjs/*.*",
         "lib/styles/*.*",
-        "lib/index.d.ts",
+        "lib/@types/*.*",
         "lib/index.js"
     ],
     "dependencies": {
-        "@react-pdf-viewer/core": "3.12.0",
-        "@react-pdf-viewer/full-screen": "3.12.0",
-        "@react-pdf-viewer/get-file": "3.12.0",
-        "@react-pdf-viewer/open": "3.12.0",
-        "@react-pdf-viewer/page-navigation": "3.12.0",
-        "@react-pdf-viewer/print": "3.12.0",
-        "@react-pdf-viewer/properties": "3.12.0",
-        "@react-pdf-viewer/rotate": "3.12.0",
-        "@react-pdf-viewer/scroll-mode": "3.12.0",
-        "@react-pdf-viewer/search": "3.12.0",
-        "@react-pdf-viewer/selection-mode": "3.12.0",
-        "@react-pdf-viewer/theme": "3.12.0",
-        "@react-pdf-viewer/zoom": "3.12.0"
+        "@react-pdf-viewer-fork/core": "^4.0.1",
+        "@react-pdf-viewer-fork/full-screen": "^4.0.1",
+        "@react-pdf-viewer-fork/get-file": "^4.0.1",
+        "@react-pdf-viewer-fork/open": "^4.0.1",
+        "@react-pdf-viewer-fork/page-navigation": "^4.0.1",
+        "@react-pdf-viewer-fork/print": "^4.0.1",
+        "@react-pdf-viewer-fork/properties": "^4.0.1",
+        "@react-pdf-viewer-fork/rotate": "^4.0.1",
+        "@react-pdf-viewer-fork/scroll-mode": "^4.0.1",
+        "@react-pdf-viewer-fork/search": "^4.0.1",
+        "@react-pdf-viewer-fork/selection-mode": "^4.0.1",
+        "@react-pdf-viewer-fork/theme": "^4.0.1",
+        "@react-pdf-viewer-fork/zoom": "^4.0.1"
     },
     "peerDependencies": {
         "react": ">=16.8.0",
