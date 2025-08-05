@@ -6,7 +6,7 @@ import {
     Tooltip,
     Viewer,
     type PdfJsApiProvider,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import { fireEvent, render, waitForElementToBeRemoved } from '@testing-library/react';
 import * as PdfJs from 'pdfjs-dist';
 import * as React from 'react';

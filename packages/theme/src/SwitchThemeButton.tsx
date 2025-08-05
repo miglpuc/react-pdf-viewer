@@ -15,7 +15,7 @@ import {
     ThemeContext,
     Tooltip,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { DarkIcon } from './DarkIcon';
 import { LightIcon } from './LightIcon';

@@ -8,27 +8,27 @@
 
 'use client';
 
-import { type Plugin } from '@react-pdf-viewer/core';
-import { fullScreenPlugin, type FullScreenPlugin, type FullScreenPluginProps } from '@react-pdf-viewer/full-screen';
-import { getFilePlugin, type GetFilePlugin, type GetFilePluginProps } from '@react-pdf-viewer/get-file';
-import { openPlugin, type OpenPlugin, type OpenPluginProps } from '@react-pdf-viewer/open';
+import { type Plugin } from '@react-pdf-viewer-fork/core';
+import { fullScreenPlugin, type FullScreenPlugin, type FullScreenPluginProps } from '@react-pdf-viewer-fork/full-screen';
+import { getFilePlugin, type GetFilePlugin, type GetFilePluginProps } from '@react-pdf-viewer-fork/get-file';
+import { openPlugin, type OpenPlugin, type OpenPluginProps } from '@react-pdf-viewer-fork/open';
 import {
     pageNavigationPlugin,
     type PageNavigationPlugin,
     type PageNavigationPluginProps,
-} from '@react-pdf-viewer/page-navigation';
-import { printPlugin, type PrintPlugin, type PrintPluginProps } from '@react-pdf-viewer/print';
-import { propertiesPlugin, type PropertiesPlugin } from '@react-pdf-viewer/properties';
-import { rotatePlugin, type RotatePlugin } from '@react-pdf-viewer/rotate';
-import { scrollModePlugin, type ScrollModePlugin } from '@react-pdf-viewer/scroll-mode';
-import { searchPlugin, type SearchPlugin, type SearchPluginProps } from '@react-pdf-viewer/search';
+} from '@react-pdf-viewer-fork/page-navigation';
+import { printPlugin, type PrintPlugin, type PrintPluginProps } from '@react-pdf-viewer-fork/print';
+import { propertiesPlugin, type PropertiesPlugin } from '@react-pdf-viewer-fork/properties';
+import { rotatePlugin, type RotatePlugin } from '@react-pdf-viewer-fork/rotate';
+import { scrollModePlugin, type ScrollModePlugin } from '@react-pdf-viewer-fork/scroll-mode';
+import { searchPlugin, type SearchPlugin, type SearchPluginProps } from '@react-pdf-viewer-fork/search';
 import {
     selectionModePlugin,
     type SelectionModePlugin,
     type SelectionModePluginProps,
-} from '@react-pdf-viewer/selection-mode';
-import { themePlugin, type ThemePlugin } from '@react-pdf-viewer/theme';
-import { zoomPlugin, type ZoomPlugin, type ZoomPluginProps } from '@react-pdf-viewer/zoom';
+} from '@react-pdf-viewer-fork/selection-mode';
+import { themePlugin, type ThemePlugin } from '@react-pdf-viewer-fork/theme';
+import { zoomPlugin, type ZoomPlugin, type ZoomPluginProps } from '@react-pdf-viewer-fork/zoom';
 import * as React from 'react';
 import { Toolbar, ToolbarProps } from './Toolbar';
 import { renderDefaultToolbar } from './renderDefaultToolbar';

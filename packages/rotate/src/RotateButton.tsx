@@ -15,7 +15,7 @@ import {
     RotateDirection,
     Tooltip,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@react-pdf-viewer-fork/core';
 import * as React from 'react';
 import { RotateBackwardIcon } from './RotateBackwardIcon';
 import { RotateForwardIcon } from './RotateForwardIcon';

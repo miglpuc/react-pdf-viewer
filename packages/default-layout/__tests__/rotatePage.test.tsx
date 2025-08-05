@@ -6,9 +6,9 @@ import {
     Tooltip,
     Viewer,
     type PdfJsApiProvider,
-} from '@react-pdf-viewer/core';
-import { RotateBackwardIcon, RotateForwardIcon } from '@react-pdf-viewer/rotate';
-import { type RenderThumbnailItemProps } from '@react-pdf-viewer/thumbnail';
+} from '@react-pdf-viewer-fork/core';
+import { RotateBackwardIcon, RotateForwardIcon } from '@react-pdf-viewer-fork/rotate';
+import { type RenderThumbnailItemProps } from '@react-pdf-viewer-fork/thumbnail';
 import { fireEvent, render, waitForElementToBeRemoved } from '@testing-library/react';
 import * as PdfJs from 'pdfjs-dist';
 import * as React from 'react';

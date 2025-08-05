@@ -1,6 +1,6 @@
-import { PdfJsApiContext, Viewer, type PdfJsApiProvider } from '@react-pdf-viewer/core';
-import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-import { type ToolbarProps, type ToolbarSlot, type TransformToolbarSlot } from '@react-pdf-viewer/toolbar';
+import { PdfJsApiContext, Viewer, type PdfJsApiProvider } from '@react-pdf-viewer-fork/core';
+import { defaultLayoutPlugin } from '@react-pdf-viewer-fork/default-layout';
+import { type ToolbarProps, type ToolbarSlot, type TransformToolbarSlot } from '@react-pdf-viewer-fork/toolbar';
 import { fireEvent, render, waitForElementToBeRemoved } from '@testing-library/react';
 import * as PdfJs from 'pdfjs-dist';
 import * as React from 'react';
